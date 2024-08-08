@@ -25,6 +25,10 @@ export default function Home() {
           <p>6. Click &apos;Save&apos; and join the server</p>
         </div>
       </div>
-    </div>
+      <button className="p-3 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition duration-300 mt-8">
+          <a href="https://discord.oprealms.net" target="_blank" rel="noopener noreferrer">
+            Join the Discord Community
+          </a>
+        </button>    </div>
   );
 }
